@@ -7,5 +7,10 @@ pub enum Token {
     Divide,
     LeftParenthesis,
     RightParenthesis,
-    WaitKeyword
+    WaitKeyword,
+    PrintKeyword,
+    LetKeyword,
+    Identifier(String),
+    Equal,
+    Semicolon
 }
